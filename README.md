@@ -19,3 +19,6 @@ Application logic lives inside the web server but the database is external to th
 - Horizontal Scaling:- Duplicate or Clone web server multiple times virtually. Cloning web servers will have the same application logic that will connect with the same one database.
 
 - Latency:- the time a request takes for the browser to fire a request and get back the response from the server. The total travel time is Latency.
+
+## Load Balancer
+Equally distributes the received requests between the web servers. The load can be distributed using the a strategy called Round Robin. If a server goes downn then it won't route any request to that server rather it will distribute the requests to the remaining web servers.
