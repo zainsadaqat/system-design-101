@@ -14,8 +14,8 @@ Web servers run some application logic and has access to the database.
 Application logic lives inside the web server but the database is external to the web server.
 `application logic`, `database`
 
-Vertical Scaling:- Increasing resources on 1 server For Example: increasing the amount of Memory, Storage, Network Speed and Processing Power (CPU) for a single web server.
+- Vertical Scaling:- Increasing resources on 1 server For Example: increasing the amount of Memory, Storage, Network Speed and Processing Power (CPU) for a single web server.
 
-Horizontal Scaling:- Duplicate or Clone web server multiple times virtually. Cloning web servers will have the same application logic that will connect with the same one database.
+- Horizontal Scaling:- Duplicate or Clone web server multiple times virtually. Cloning web servers will have the same application logic that will connect with the same one database.
 
-Latency:- the time a request takes for the browser to fire a request and get back the response from the server. The total travel time is Latency.
+- Latency:- the time a request takes for the browser to fire a request and get back the response from the server. The total travel time is Latency.
