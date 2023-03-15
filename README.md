@@ -15,4 +15,4 @@ DNS stores IP address of websites. For Example: when a user searches for Faceboo
 
 Vertical Scaling:- Increasing resources on 1 server For Example: increasing the amount of Memory, Storage, Network Speed and Processing Power (CPU) for a single web server.
 
-Horizontal Scaling:-
+Horizontal Scaling:- Duplicate or Clone web server multiple times virtually. 
