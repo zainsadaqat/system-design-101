@@ -21,4 +21,5 @@ Application logic lives inside the web server but the database is external to th
 - Latency:- the time a request takes for the browser to fire a request and get back the response from the server. The total travel time is Latency.
 
 ## Load Balancer
-Equally distributes the received requests between the web servers. The load can be distributed using the a strategy called Round Robin. If a server goes downn then it won't route any request to that server rather it will distribute the requests to the remaining web servers.
+Equally distributes the received requests between the web servers. The load can be distributed using the a strategy called Round Robin. If a server goes downn then it won't route any request to that server rather it will distribute the requests to the remaining web servers. Load balancer actually works like a Traffic Cop (Traffic Policer Officer)
+- Session Persistance ( Session between a user and a web server)
